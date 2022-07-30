@@ -25,10 +25,11 @@ public class Bai2 {
 		for (int i = 0; i < d.length; i++) {
 			if (d[i].length() != 0) {
 				s1 += d[i].substring(0, 1).toUpperCase() + d[i].substring(1);//viết hoa chữ cái đầu tiên
-			}
-			if(i<d.length -1) {
+				if(i<d.length -1) {
 				s1+=" ";
+			         }
 			}
+			
 		}
 		System.out.println("\n");
 		System.out.println("Chuỗi sau khi chuẩn hóa là: " + s1);
